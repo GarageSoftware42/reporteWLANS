@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="cssreporte.css">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <title>Pasos para hacer una conexión WLAN</title>
+</head>
+<body>
+    <a href="REPORTE.html">
+        <button class="btn volver">Volver</button>
+    </a>
+    <header>Pasos para hacer una conexión WLAN</header>
+
+    <article>
+        <p><strong>Paso 1:</strong> Asegúrate de que ambas computadoras estén dentro de la misma zona de cobertura Wi-Fi. Esto significa que deben estar conectadas a la misma red inalámbrica.</p>
+
+        <p><strong>Paso 2:</strong> En una de las computadoras, crea un grupo de trabajo (o grupo en el hogar) para permitir la conexión y el uso compartido de recursos. Asigna un nombre al grupo para que pueda ser identificado fácilmente.</p>
+        
+        <p><strong>Paso 3:</strong> Configura ambas computadoras para que se conecten automáticamente a la red Wi-Fi. Asegúrate de que la red esté configurada como "privada" en la configuración de red de cada computadora para permitir el intercambio de archivos y la conexión remota.</p>
+        
+        <p><strong>Paso 4:</strong> En ambas computadoras, ve a la configuración avanzada de uso compartido y asegúrate de activar las siguientes opciones:</p>
+        <ul>
+          <li><strong>Detección de redes:</strong> Permite que la computadora vea otras computadoras y dispositivos en la red.</li>
+          <li><strong>Uso compartido de archivos e impresoras:</strong> Permite compartir archivos e impresoras con otros dispositivos en la red.</li>
+          <li><strong>Uso compartido de carpetas públicas:</strong> Permite compartir el contenido de las carpetas públicas con otras computadoras en la red.</li>
+          <li><strong>Uso compartido protegido por contraseña:</strong> Asegúrate de que esté activado si deseas que solo los usuarios con cuentas y contraseñas puedan acceder a los recursos compartidos.</li>
+        </ul>
+        
+        <p><strong>Paso 5:</strong> Presiona <strong>Win + R</strong>, escribe <strong>cmd</strong> y presiona <strong>Enter</strong> para abrir el símbolo del sistema en ambas computadoras.</p>
+        
+        <p><strong>Paso 6:</strong> En el símbolo del sistema, escribe <strong>ipconfig</strong> y presiona <strong>Enter</strong>. Busca la dirección IPv4 que corresponde a tu red Wi-Fi. Esta es la dirección IP de tu computadora.</p>
+        
+        <p><strong>Paso 7:</strong> En una de las computadoras, escribe <strong>ping [IP de la otra computadora]</strong> en el símbolo del sistema (sustituyendo "[IP de la otra computadora]" con la dirección IP que obtuviste en el paso anterior). Presiona <strong>Enter</strong>.</p>
+        
+        <p><strong>Paso 8:</strong> Si la conexión es exitosa, deberías ver una respuesta en la ventana del símbolo del sistema que indique que los paquetes fueron enviados y recibidos correctamente. Esto confirma que ambas computadoras pueden comunicarse a través de la red.</p>
+        
+        </article>
+
+        <h1>FOTOS DE LOS PASOS</h1>
+
+        <section class="Banners">
+        <div class="Banners">
+            <section class="productos">
+                <div class="producto">
+                    <img src="IMAGENES/0243e97d-0b6c-426c-8a92-94f9e8d6f467.jpg" alt="PASO 1">
+                    <p>PASO 1</p>
+                </div>
+
+                <div class="producto">
+                    <img src="IMAGENES/DOMINIO.jpg" alt="PASO 2">
+                    <p>PASO 2</p>
+                </div>
+
+                <div class="producto">
+                    <img src="IMAGENES/REDPRIVADA.jpg" alt="PASO 3">
+                    <p>PASO 3</p>
+                </div>
+
+                <div class="producto">
+                    <img src="IMAGENES/USOCOMPARTIDO.jpg" alt="PASO 4">
+                    <p>PASO 4</p>
+                </div>
+
+                <div class="producto producto-fan-deportes">
+                    <img src="IMAGENES/Captura de pantalla 2024-09-05 100915.jpg " alt="PASO 5">
+                    <p>PASO 5</p>
+                </div>
+
+                <div class="producto producto-arabe">
+                    <img src= "IMAGENES/e6503459-823a-43c3-a9bb-53b1367e390d.jpg" alt="PASO 6">
+                    <p>PASO 6</p>
+                </div>
+
+                <div class="producto producto-farolitos">
+                    <img src= "IMAGENES/Captura de pantalla 2024-09-07 074358.png" alt="PASO 7">
+                    <p>PASO 7</p>
+                </div>
+
+                <div class="producto producto-independencia">
+                    <img src="IMAGENES/e6503459-823a-43c3-a9bb-53b1367e390d (2).jpg" alt="PASO 8">
+                    <p>PASO 8</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="MODAL.js"></script>
+
+</body>
+</html>
